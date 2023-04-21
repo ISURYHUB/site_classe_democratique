@@ -2306,3 +2306,36 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px);
+}
+
+.content {
+  max-width: 100%;
+  padding: 20px;
+  text-align: justify;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.inteligencia {
+  width: 1250px;
+  height: 600px;
+}
+
+.index-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+}
